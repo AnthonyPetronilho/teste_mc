@@ -65,7 +65,6 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  padding-bottom: 50px;
 }
 
 .footer__copyright {
@@ -74,6 +73,13 @@
   font-size: 14px;
   line-height: 16px;
   color: #fff;
+}
+.image {
+  max-width: 984px;
+  max-height: 615px;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 64px;
 }
 
 @media screen and (max-width: 320px) {
