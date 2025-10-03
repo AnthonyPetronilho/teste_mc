@@ -70,7 +70,7 @@
 .footer__copyright {
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 16px;
   color: #fff;
 }
@@ -81,6 +81,9 @@
 }
 
 @media screen and (max-width: 320px) {
+  .page {
+    padding-bottom: 200px;
+  }
   .lead__title {
     font-size: 40px;
     line-height: 44px;
@@ -92,7 +95,7 @@
     max-width: 288px;
     margin-top: 50px;
     margin-bottom: 40px;
-    font-size: 16px;
+    font-size: 22px;
     line-height: 20px;
   }
 
@@ -103,7 +106,7 @@
   }
 
   .intro__title {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 35px;
     max-width: 288px;
   }
